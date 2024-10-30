@@ -1,0 +1,89 @@
+#home {
+    height: 100vh;
+    background-color: var(--black-yg);
+    position: relative;
+    overflow: hidden;
+}
+
+#home h1 {
+    font-family: var(--f-title);
+    font-variation-settings: "wdth" 150;
+    color: var(--white);
+    position: relative;
+    z-index: 15;
+    font-weight: var(--w-title);
+    font-size: var(--fs-title);
+    margin-bottom:10px;
+    line-height: 1.2;
+}
+
+#home h2 {
+    font-family: var(--f-title);
+    font-style: italic;
+    font-variation-settings: "wdth" 150;
+    color: var(--yg);
+    position: relative;
+    z-index: 15;
+    font-weight: var(--w-title);
+    font-size: var(--fs-title);
+    margin-bottom:15px;
+    line-height: 1.2;
+}
+
+#home p {
+    font-family: var(--f-text);
+    color: var(--white);
+    position: relative;
+    display: inline-block;
+    max-width: 500px;
+    z-index: 15;
+    font-weight: var(--w-text);
+    font-size: var(--fs-text);
+    margin-bottom:50px;
+}
+
+#home p a {
+    color:var(--yg);
+}
+
+#home #epicycloid {
+    top: 0;
+    left: 20%;
+    mask-image: linear-gradient(90deg, transparent 0%, black 15%);
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 15%);
+    mix-blend-mode: screen;
+    opacity: .75;
+    position: absolute;
+}
+
+#home .title-cont {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+#home .noise {
+    opacity: 0.2;
+    mix-blend-mode: overlay;
+    background-image: url(../ressources/img/noise.gif);
+
+    background-position: 0 0;
+    background-size: 480px;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+@media (max-width: 768px) {
+    #home #epicycloid {
+        mask-image: none;
+        -webkit-mask-image: none;
+        left: 0;
+        opacity: .35;
+    }
+}

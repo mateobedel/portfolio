@@ -1,0 +1,20 @@
+{
+  "name": "mateo-bedel-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for programming projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BEDEL Matéo",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "lenis": "^1.1.14",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
