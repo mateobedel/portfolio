@@ -3,7 +3,7 @@
 	[
 		{
 			"title": "JPEG Encoder",
-			"description": "This project is an image encoder from the PPM to the JPEG format. It was programmed as part of an end-of-year project at Ensimag.<br><br>The image goes through all the encoding functions of the JPEG standard (downsampling, DCT, zig-zag, quantization, RLE coding, huffman coding...) while being optimized (loeffler-DCT, pre-calculation of huffman symbols...).",
+			"description": "This project is an image encoder from the PPM to the JPEG format. <br><br>It uses the encoding functions of the JPEG standard (downsampling, DCT, zig-zag, quantization, RLE coding, huffman coding...) while being optimized (loeffler-DCT, pre-calculation of huffman symbols...).",
 			"languages": ["C", "Makefile"],
 			"link": "https://github.com/mateobedel/ppm2jpeg",
 			"image": "/portfolio/img/jpg.jpg",
@@ -11,7 +11,7 @@
 		},
 		{
 			"title": "SIR Cellular automata",
-			"description": "This cellular automata is based on compartmental modeling in epidemiology (SIR type). It divides the population into 3 compartments: Susceptible, Infectious, and Recovered. <br><br>It models the propagation of an epidemic (defined by parameters), over time, in a two-dimensional discretized space. The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
+			"description": "A cellular automata simulating epidemic propagation using a compartmental model, over time, in a two-dimensional discretized space. The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
 			"languages": ["C", "SDL2"],
 			"link": "https://github.com/mateobedel/sir_automata",
 			"image": "/portfolio/img/sir.jpg",

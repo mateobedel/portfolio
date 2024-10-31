@@ -26,6 +26,7 @@
 }
 
 #footer .license, #footer .github {
+  text-decoration: none;
   gap: 10px;
   display: flex;
   justify-content: center;
@@ -38,7 +39,6 @@
 }
 
 #footer span {
-  white-space: nowrap;
   font-family: var(--f-text);
   font-weight: var(--w-button);
   font-size: var(--fs-text);

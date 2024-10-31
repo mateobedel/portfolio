@@ -44,15 +44,18 @@ function text_anims() {
     });
 }
 
-function smoothAnchorScroll() {
+function smoothAnchorScroll(lenis) {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
+          e.preventDefault();
+          lenis.scrollTo(this.getAttribute('href'))
         });
-    });
+      })
+}
+
+function fixHomeHeight() {
+    $("#home").css("min-height", window.innerHeight);
+    
 }
 
 export function anims_events() {
@@ -71,9 +74,14 @@ export function anims_events() {
 
     //ScrollTrigger
     gsap.registerPlugin(ScrollTrigger);
-    smoothAnchorScroll();
+    smoothAnchorScroll(lenis);
 
     //ScrollTrigger animations
     text_anims();
     svg_anims();
+
+    fixHomeHeight();
+    $( window ).on('resize', function() {
+        fixHomeHeight();
+    });
 }

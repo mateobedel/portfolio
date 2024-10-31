@@ -115,7 +115,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
 
     #header .navbar ul {
         column-gap: 0px;
@@ -131,7 +131,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
 
     #header {
         text-align: left;

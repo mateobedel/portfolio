@@ -1,8 +1,11 @@
 #home {
-    height: 100vh;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     background-color: var(--black-yg);
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 #home h1 {

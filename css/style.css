@@ -59,9 +59,9 @@
     --f-text: "Plus Jakarta Sans";
     --f-title: "Anybody";
 
-    --fs-nav: clamp(11px, 4vw, 15px);
+    --fs-nav: 14px;
     --fs-title: clamp(30px, 6vw, 45px);
-    --fs-text: 18px;
+    --fs-text: clamp(14px, 3vw, 18px);
 
     --w-title: 900;
     --w-button: 750;
@@ -254,4 +254,10 @@
     fill: var(--yg);
 }
 
+
+@media (max-width: 550px) {
+    .button {
+        width: 160px;
+    }
+}
 

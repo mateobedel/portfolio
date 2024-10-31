@@ -154,3 +154,18 @@
   }
 }
 
+
+@media (max-width: 370px) {
+  #contact .social-link {
+    flex-direction: column;
+    padding: 15px;
+  }
+  #contact .social-svg-cont {
+    margin:0;
+    margin-bottom: 10px;
+  }
+
+  #contact .arobase-circle {
+    width: 160%; 
+  }
+}
