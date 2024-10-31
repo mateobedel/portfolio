@@ -8,8 +8,8 @@ let mouseX, mouseY;
 function import_projects_json(project_list) {
 
     
-    $.getJSON('ressources/json/projects.json', function(data) {
-      
+    $.getJSON('/portfolio/json/projects.json', function(data) {
+
         var projects = data.projects;
 
         project_list.append('<div class="spacer"></div>');

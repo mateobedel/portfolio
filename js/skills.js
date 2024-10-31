@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function import_skills_json(containers) {
 
-    $.getJSON('ressources/json/skills.json', function(data) {
+    $.getJSON('/portfolio/json/skills.json', function(data) {
     
 		$.each(containers, function(i, container) {
 			var skills = data.skills[i];
@@ -23,7 +23,7 @@ function import_skills_json(containers) {
 				var slide_html = '<div id="'+'tab_'+j.toString()+'" class="tab-slide">';
 				$.each(categorie.content, function(k, item) {
 					slide_html +='<div class="svg-container">';
-					slide_html += '<img src="ressources/svg/language/'+item.svg+'.svg" alt="'+item.name+'">';
+					slide_html += '<img src="/portfolio/svg/'+item.svg+'.svg" alt="'+item.name+'">';
 					slide_html += '<span class="black-glass">'+item.name+'</span></div>';
 				});
 				container.append($(slide_html+'</div>'));
