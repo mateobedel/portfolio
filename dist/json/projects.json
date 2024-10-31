@@ -1,0 +1,37 @@
+{
+	"projects":
+	[
+		{
+			"title": "JPEG Encoder",
+			"description": "This project is an image encoder from the PPM to the JPEG format. It was programmed as part of an end-of-year project at Ensimag.<br><br>The image goes through all the encoding functions of the JPEG standard (downsampling, DCT, zig-zag, quantization, RLE coding, huffman coding...) while being optimized (loeffler-DCT, pre-calculation of huffman symbols...).",
+			"languages": ["C", "Makefile"],
+			"link": "https://github.com/mateobedel/ppm2jpeg",
+			"image": "/portfolio/img/jpg.jpg",
+			"date": "2024"
+		},
+		{
+			"title": "SIR Cellular automata",
+			"description": "This cellular automata is based on compartmental modeling in epidemiology (SIR type). It divides the population into 3 compartments: Susceptible, Infectious, and Recovered. <br><br>It models the propagation of an epidemic (defined by parameters), over time, in a two-dimensional discretized space. The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
+			"languages": ["C", "SDL2"],
+			"link": "https://github.com/mateobedel/sir_automata",
+			"image": "/portfolio/img/sir.jpg",
+			"date": "2023"
+		},
+		{
+			"title": "Pastèque Duel",
+			"description": "It's a Suika-like mobile game coded on Godot. The game features a LAN multiplayer mode for battling friends. <br><br> You have to merge fruits until you get a watermelon without them leaving the box.",
+			"languages": ["GDScript"],
+			"link": "https://github.com/mateobedel/pasteque_duel",
+			"image": "/portfolio/img/pastequeduel.jpg",
+			"date": "2023"
+		},
+		{
+			"title": "METEOMAN",
+			"description": "It's a Godot puzzle game where you control the weather to move your character. <br><br> You have to help the character find his legs back in each level, using the different weather events at your disposal.",
+			"languages": ["GDScript"],
+			"link": "https://github.com/mateobedel/meteoman",
+			"image": "/portfolio/img/meteoman.jpg",
+			"date": "2023"
+		}
+    ]
+}
