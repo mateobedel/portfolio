@@ -11,7 +11,7 @@
 		},
 		{
 			"title": "SIR Cellular automata",
-			"description": "A cellular automata simulating epidemic propagation using a compartmental model, over time, in a two-dimensional discretized space. The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
+			"description": "A cellular automata simulating epidemic propagation using a compartmental model, over time, in a two-dimensional discretized space.<br><br> The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
 			"languages": ["C", "SDL2"],
 			"link": "https://github.com/mateobedel/sir_automata",
 			"image": "/portfolio/img/sir.jpg",
