@@ -55,7 +55,7 @@ function smoothAnchorScroll(lenis) {
 
 function fixHomeHeight() {
     $("#home").css("min-height", window.innerHeight);
-    
+
 }
 
 export function anims_events() {
@@ -81,7 +81,4 @@ export function anims_events() {
     svg_anims();
 
     fixHomeHeight();
-    $( window ).on('resize', function() {
-        fixHomeHeight();
-    });
 }

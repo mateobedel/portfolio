@@ -49,24 +49,24 @@
 }
 
 #projects .project-card {
-    box-shadow: 0px 0px 50px 0px rgba(0, 0, 33, 0.9);
     box-sizing: border-box;
     cursor: pointer;
     position: relative;
     flex: 0 0 auto;
-    width: 70%;
+    width: 60%;
     margin: 0;
     margin-right: 5%;
-    padding: 20px;
+    padding: 30px;
     border-radius: 28px;
     border-style: solid;
-    border-color: var(--purple);
+    border-color: var(--dark_purple);
     border-width: 2px;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
     display: flex;
     flex-direction: column;
     transition: border-color .5s;
+    background-color: var(--black-purple);
 }
 
 #projects .hovered {
@@ -83,7 +83,7 @@
 
 #projects .spacer {
     flex: 0 0 auto;
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -121,7 +121,7 @@
     padding: 15px;
     white-space: normal;
     margin-bottom: 15px;
-    font-size: clamp(20px, 4vw, 24px);
+    font-size: clamp(20px, 4vw, 26px);
     font-weight: var(--w-button);
     font-family: var(--f-text);
     color: var(--white);
@@ -151,6 +151,14 @@
     font-weight: var(--w-text);
     font-family: var(--f-text);
     color: var(--light_grey);
+    border: 1px solid var(--purple);
+    transition: all ease .4s;
+    border-radius: 10px;
+}
+
+#projects .language-text:hover {
+
+    background-color: var(--dark_purple);
 }
 
 #projects .github-button {
@@ -167,7 +175,6 @@
     font-family: var(--f-text);
     color: var(--dark-yg);
     transition: border-color .5s, background-color .5s, color .5s;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 51, 0.89);
 }
 
 #projects .active-project .github-button:hover {
@@ -190,6 +197,16 @@
     font-size: var(--fs-text);
     font-weight: var(--w-button);
     font-family: var(--f-text);
+}
+
+#projects .grid-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(87 66 185 / .2)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+    mask-image: linear-gradient(to top,  transparent 0%, #fff 30% 70%, transparent 100%),
+                linear-gradient(to left, transparent 0%, #fff 30% 70%, transparent 100%);
+    position: absolute;
+    mask-composite: intersect;
+    height: 100%;
+    width: 100%;
 }
 
 

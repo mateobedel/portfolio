@@ -21,18 +21,18 @@ function import_projects_json(project_list) {
             if (i === 0) html_project = '<div class="project-card active-project" data-link="'+project.link+'">';
             else html_project = '<div class="project-card" data-link="'+project.link+'">';
             
-            html_project += '<div class="img-text-cont"><div class="img-container purple-box">';
+            html_project += '<div class="img-text-cont"><div class="img-container text-box">';
 
             html_project += '<div class="date-cont black-glass">'+project.date+'</div>';
 
             html_project += '<img src="' + project.image + '" alt="' + project.title + '">';
             html_project += '</div><div class="txt-container">';
-            html_project += '<h3 class="purple-box">' + project.title + '</h3>';
-            html_project += '<p class="purple-box">'+ project.description +'</p>';
+            html_project += '<h3 class="text-box">' + project.title + '</h3>';
+            html_project += '<p class="text-box">'+ project.description +'</p>';
             html_project += '</div></div><div class="language-bar">';
 
             $.each(project.languages, function(_, language) {
-                html_project += '<div class="language-text purple-box">' + language + '</div>';
+                html_project += '<div class="language-text">' + language + '</div>';
             });
   
             

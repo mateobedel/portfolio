@@ -16,7 +16,7 @@
     z-index: 15;
     font-weight: var(--w-title);
     font-size: var(--fs-title);
-    margin-bottom:10px;
+    margin-bottom:5px;
     line-height: 1.2;
 }
 
@@ -29,24 +29,31 @@
     z-index: 15;
     font-weight: var(--w-title);
     font-size: var(--fs-title);
-    margin-bottom:15px;
+    margin-bottom:10px;
     line-height: 1.2;
 }
 
 #home p {
     font-family: var(--f-text);
-    color: var(--white);
+    color: var(--light_grey);
     position: relative;
     display: inline-block;
-    max-width: 500px;
+    max-width: 550px;
     z-index: 15;
     font-weight: var(--w-text);
     font-size: var(--fs-text);
-    margin-bottom:50px;
+    margin-top:15px;
+    margin-bottom:40px;
 }
 
 #home p a {
     color:var(--yg);
+}
+
+#home .buttons-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap:20px 30px    ;
 }
 
 #home #epicycloid {
@@ -82,11 +89,58 @@
 }
 
 
+#home .loc-cont  {
+    z-index: 15;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    padding: 7px 20px;
+    margin-bottom: 20px;
+    background-color: var(--yg);
+    box-shadow: 0 0 0 0px var(--yg);
+    transition: all ease .4s;
+}
+
+
+#home .loc-cont .svg-cont {
+    width:17px;
+    height: 17px;
+    
+}
+
+#home .loc-cont .svg-cont svg {
+    fill: var(--black-yg)
+}
+
+#home .loc-cont a {
+    font-family: var(--f-text);
+    text-decoration: none;
+    color: var(--black-yg);
+    font-weight: var(--w-title);
+    font-size: clamp(13px, 3vw, 16px);
+    
+}
+
+#home .loc-cont:hover {
+    box-shadow: 0 0 0 2px var(--yg);
+}
+
+
 @media (max-width: 768px) {
     #home #epicycloid {
         mask-image: none;
         -webkit-mask-image: none;
         left: 0;
         opacity: .35;
+    }
+}
+
+@media (max-width: 550px) {
+    #home .buttons-container {
+        flex-wrap: wrap;
+        display: flex;
+        gap:20px 10px    ;
     }
 }

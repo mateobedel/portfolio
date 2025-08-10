@@ -5,7 +5,6 @@ function hover_contact() {
     var circle_text = $('#circle-text');
     var circle_text_path = $('#circle-text textPath');
     $('.social-link').hover(function() {
-        circle_text.css('fill', 'var(--yg)');
         circle_text_path.text((this.id + " ").repeat(Math.floor(100 / (this.id.length+1))));
     });
 
