@@ -1,123 +1,33 @@
-{
-	"skills": [
-		{
-			"title": "I'm specialized with",
-			"categories": [
-				{
-					"name":"Software Development",
-					"content": [
-						{
-							"name": "C",
-							"svg": "c-plain"
-						},
-						{
-							"name": "C++",
-							"svg": "cplusplus-plain"
-						},
-						{
-							"name": "Python",
-							"svg": "python-plain"
-						}
-					]
-				},
-				{
-					"name":"Computer Graphics",
-					"content": [
-						{
-							"name": "SDL",
-							"svg": "sdl-plain"
-						}
-					]
-				}
-			]
-		},
-		{
-			"title": "I'm familiar with",
-			"categories": [
-				{
-					"name":"Software dev",
-					"content": [
-						{
-							"name": "Ocaml",
-							"svg": "ocaml-plain"
-						},
-						{
-							"name": "CMake",
-							"svg": "cmake-plain"
-						},
-						{
-							"name": "R",
-							"svg": "r-plain"
-						},
-						{
-							"name": "Godot",
-							"svg": "godot-plain"
-						},
-						{
-							"name": "Game Maker",
-							"svg": "gamemaker-plain"
-						},
-						{
-							"name": "Git",
-							"svg": "git-plain"
-						}
-					]
-				},
-				{
-					"name":"Web dev",
-					"content": [
-						{
-							"name": "HTML",
-							"svg": "html5-plain"
-						},
-						{
-							"name": "CSS",
-							"svg": "css3-plain"
-						},
-						{
-							"name": "Javascript",
-							"svg": "javascript-plain"
-						},
-						{
-							"name": "Jquery",
-							"svg": "jquery-plain"
-						},
-						{
-							"name": "Three.js",
-							"svg": "threejs-plain"
-						},
-						{
-							"name": "Bootstrap",
-							"svg": "bootstrap-plain"
-						},
-						{
-							"name": "SQL",
-							"svg": "sql-plain"
-						}
-					]
-				},
-				{
-					"name":"Design",
-					"content": [
-						{
-							"name": "Photoshop",
-							"svg": "photoshop-plain"
-						},
-						{
-							"name": "Illustrator",
-							"svg": "illustrator-plain"
-						},
-						{
-							"name": "Premiere pro",
-							"svg": "premierepro-plain"
-						},
-						{
-							"name": "After effects",
-							"svg": "aftereffects-plain"
-						}
-					]
-				}
-			]
-		}
-    ]
-}
+[
+	{
+		"name": "C++",
+		"svg": "cplusplus-plain",
+		"description": "Desc 1"
+	},
+	{
+		"name": "C",
+		"svg": "c-plain",
+		"description": "Desc 2"
+	},
+	{
+		"name": "Python",
+		"svg": "python-plain",
+		"description": "Desc 3"
+	},
+	{
+		"name": "Java",
+		"svg": "java-plain",
+		"description": "Desc 4"
+	},
+	{
+		"name": "CMake",
+		"svg": "cmake-plain",
+		"description": "Desc 6"
+	},
+	{
+		"name": "Git",
+		"svg": "git-plain",
+		"description": "Desc 10"
+	}
+
+]
