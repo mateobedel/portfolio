@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Web Front-End",
+		"svg": "frontend",
+		"description": "Desc 1",
+		"color": "#0091FF"
+	},
+	{
+		"name": "Game development",
+		"svg": "godot-plain",
+		"description": "Desc 1",
+		"color": "#3264a8"
+	},
+	{
+		"name": "Adobe suite",
+		"svg": "adobe",
+		"description": "Desc 1",
+		"color": "#EA2D2E"
+	}
+]
