@@ -20,7 +20,6 @@
     font-weight: 200 800;
     font-style: italic;
 }
-
 @font-face {
     font-family: "Anybody";
     src: url("../ressources/font/anybody.ttf");
@@ -33,7 +32,6 @@
     font-weight: 100 900;
     font-style: italic;
 }
-
 @font-face {
     font-family: "Roboto Mono";
     src: url("../ressources/font/robotomono.ttf");
@@ -44,21 +42,28 @@
 
 /* Variables */
 :root {
+
+    /* Yellow-green */
+    --light-yg: #bed7be;
     --yg: #d9ff00;
     --dark-yg: #142414;
     --black-yg: #031111;
 
+    /* Purple */
     --purple: #5742b9;
     --dark_purple: #180054;
     --black-purple: #060524;
     
+    /* Glass morphism */
     --dark_glass_bg: #0e132e42;
-    --light_glass_bg: #e7c7ff41;
     --glass_edge: #ffffff1a;
     --transp_white: #ffffff99;
-    --light_grey: #d7cedd;
+
+    /* White */
+    --light_grey: #d7d7d7;
     --white: #ffffff;
 
+    /* Font */
     --f-text: "Plus Jakarta Sans";
     --f-title: "Anybody";
 
@@ -78,6 +83,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scrollbar-width: thin;
+}
 
 /* Glassmorphism */
 .white-glass {
@@ -214,6 +222,7 @@
 
 .button span {
     height: 100%;
+    color:white;
     text-align: center;
     position: absolute;
     font-family: var(--f-text);

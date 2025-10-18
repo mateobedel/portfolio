@@ -34,6 +34,18 @@
 		"svg": "git-plain",
 		"description": "Desc 10",
 		"color": "#F34F29"
+	},
+	{
+		"name": "Parallel Programming",
+		"svg": "parallel",
+		"description": "Desc 1",
+		"color": "#1a9637"
+	},
+	{
+		"name": "Computer graphics",
+		"svg": "3d",
+		"description": "Desc 1",
+		"color": "#0091FF"
 	}
 
 ]

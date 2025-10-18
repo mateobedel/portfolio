@@ -1,16 +1,16 @@
 
 #footer .footer-cont {
-  background-color: var(--yg);
+  background-color: var(--black-yg);
   overflow: hidden;
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 65px;
+  padding-bottom: 0px;
   
 }
 
 #footer img {
   width : 20px;
   height: 20px;
-  fill: var(--dark-yg);
+  fill: var(--yg);
   
 }
 
@@ -19,10 +19,10 @@
 }
 
 #footer .link-cont {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
-  
+  align-items: flex-start;
 }
 
 #footer .license, #footer .github {
@@ -42,52 +42,17 @@
   font-family: var(--f-text);
   font-weight: var(--w-button);
   font-size: var(--fs-text);
-  color: var(--dark-yg);
-}
-
-#footer .software-list-cont {
-  display: flex;
-  position: relative;
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-  mask-image: linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 10%, black 90%, transparent 100%);
-}
-
-#footer .software-list {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  align-items: self-end;
-  justify-content: flex-start;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-}
-
-#footer .software-list span {
-  font-family: "Roboto Mono";
   color: var(--yg);
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: var(--dark-yg);
-  font-size: 140px;
 }
 
-#footer .software-list-scroll {
-  display: flex;
-  animation: scrollText 15s infinite linear;
+#footer .credit {
+  color: var(--light-yg);
 }
 
-@keyframes scrollText {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-50%);
-  }
+#footer .credit a {
+  color: var(--light-yg);
 }
+
 
 @media (max-width: 768px) {
   #footer .link-cont {
