@@ -2,16 +2,48 @@
 	"projects":
 	[
 		{
+			"title": "Collision Detection Engine",
+			"description": "Experiment simulator of complex robotic instruments with collision detection, built using NVIDIA PhysX API.<br><br>Developed during a 3-month internship in the Instrument Control Department at the Institut Laue–Langevin (ILL).",
+			"languages": ["C++", "Python", "CMake","Git", "ImGui"],
+			"link": "https://code.ill.fr/instrument-control/protos/nomad-3d/pxcollision",
+			"image": "/portfolio/img/pxcollision.jpg",
+			"date": "2025"
+		},
+		{
+			"title": "Real-time ray tracer",
+			"description": "Multithreaded real-time ray tracing engine with triangle meshes, spheres and emissive materials. Optimized using a BVH tree with SAH.",
+			"languages": ["C++", "ImGui", "GLFW"],
+			"link": "https://github.com/mateobedel/raytracer",
+			"image": "/portfolio/img/raytracer.jpg",
+			"date": "2025"
+		},
+		{
 			"title": "JPEG Encoder",
-			"description": "This project is an image encoder from the PPM to the JPEG format. <br><br>It uses the encoding functions of the JPEG standard (downsampling, DCT, zig-zag, quantization, RLE coding, huffman coding...) while being optimized (loeffler-DCT, pre-calculation of huffman symbols...).",
+			"description": "Image encoder from the PPM to the JPEG format. <br><br>It uses the encoding functions of the JPEG standard (downsampling, DCT, zig-zag, quantization, RLE/huffman coding...) while being optimized (loeffler-DCT, pre-calculation...).",
 			"languages": ["C", "Makefile"],
 			"link": "https://github.com/mateobedel/ppm2jpeg",
 			"image": "/portfolio/img/jpg.jpg",
 			"date": "2024"
 		},
 		{
+			"title": "Particle simulation",
+			"description": "Particle simulation evolving under physical forces and potentials using the Störmer-Verlet integration method. It includes spatial discretization, Lennard-Jones interactions, and boundary conditions.",
+			"languages": ["C++", "CMake","gtest","Python"],
+			"link": "https://github.com/mateobedel/particles",
+			"image": "/portfolio/img/particles.jpg",
+			"date": "2025"
+		},
+		{
+			"title": "Deca compiler",
+			"description": "Compiler for Deca, a sub-language of Java, developed as part of a group project. The compiler generates assembly code for an abstract machine and includes several optimizations.",
+			"languages": ["Java","Shell","Git"],
+			"link": "https://github.com/lisacornu/compiler_deca/tree/master",
+			"image": "/portfolio/img/deca.jpg",
+			"date": "2025"
+		},
+		{
 			"title": "SIR Cellular automata",
-			"description": "A cellular automata simulating epidemic propagation using a compartmental model, over time, in a two-dimensional discretized space.<br><br> The model takes into account the spatial heterogeneity of population density, using density functions or matrices.",
+			"description": "A cellular automata simulating epidemic propagation using a compartmental model, over time, in a two-dimensional discretized space.<br><br> The model takes into account the spatial heterogeneity of population density.",
 			"languages": ["C", "SDL2"],
 			"link": "https://github.com/mateobedel/sir_automata",
 			"image": "/portfolio/img/sir.jpg",
